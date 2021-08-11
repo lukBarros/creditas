@@ -1,0 +1,24 @@
+{
+    "name": "lukbarros/creditas",
+    "description": "Cliente em PHP para integração server-side com APIs Creditas",
+    "keywords": ["creditas"],
+    "homepage": "http://github.com/lukbarros",
+    "license": "MIT",
+    "type": "libraries",
+    "authors": [
+        {
+            "name": "Lucas Barros",
+            "email": "lbtecnologia@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "lukbarros\\creditas\\": "src/"
+        }
+        
+    },
+    "minimum-stability": "dev"
+}
